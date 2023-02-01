@@ -4,14 +4,10 @@ function About() {
       <div className="profile-container">
         <img className="profile-picture" src={require('../assets/profilePicture.jpeg')} alt="profile"/>
         <div className="profile-description">
-          Chris Garcia
-          Front-end Engineer
         </div>
       </div>
       <div className="about-description">
-        <h2>
-          Welcome to my portfolio!
-        </h2>
+        <h2> Welcome! </h2>
         <p>
           You'll find descriptions of my projects and links to the codebase for each one.
           Check out my <a href="https://www.linkedin.com/in/christopher-garcia96/">LinkedIn</a>, <a href="https://github.com/cegarcia96">GitHub</a>, and <a href="https://drive.google.com/file/d/1yOjVSSuhbCA_1K6m-8frWK2nff-Zhpee/view?usp=sharing">resume</a> at the links below.
