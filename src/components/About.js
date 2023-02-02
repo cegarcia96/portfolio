@@ -3,13 +3,13 @@ function About() {
     <div className="about-container">
       <div className="profile-container">
         <img className="profile-picture" src={require('../assets/profilePicture.jpeg')} alt="profile"/>
-        <div className="profile-description">
-        </div>
       </div>
       <div className="about-description">
-        <h2> Welcome! </h2>
+      <h2 className="about-header"> Welcome! </h2>
         <p>
-          You'll find descriptions of my projects and links to the codebase for each one.
+          I'm Chris Garcia, a software engineer. With a background in science I enjoy applying the logical thinking and analytical skills I developed to solve complex problems. I was drawn to software engineering because of the ever-changing nature of the industry and the opportunities for lifelong learning. Here you'll find descriptions of my projects and links to the codebase for each one.
+        </p>
+        <p>
           Check out my <a href="https://www.linkedin.com/in/christopher-garcia96/">LinkedIn</a>, <a href="https://github.com/cegarcia96">GitHub</a>, and <a href="https://drive.google.com/file/d/1yOjVSSuhbCA_1K6m-8frWK2nff-Zhpee/view?usp=sharing">resume</a> at the links below.
         </p>
         <div className="icon-container">
