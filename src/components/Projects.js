@@ -46,7 +46,7 @@ function Projects() {
               <p>A RESTful API optimized to handle up to 5000 requests per second. Developed with a PostgreSQL database and Express. Stress tested with K6 and loader.io. Horizontally scaled using a NGINX load-balancer with four AWS EC2 instances.</p>
             </div>
             <div className="project-preview-container">
-              <img className="project-image" src={require('../assets/atelier/loader-thumbnail-480.jpg')} alt="project thumbnail" onClick={() => setModal({...modal, atelierAPI: true})}/>
+              <img className="project-thumbnail" src={require('../assets/atelier/loader-thumbnail-480.jpg')} alt="project thumbnail" onClick={() => setModal({...modal, atelierAPI: true})}/>
             </div>
             <div className="project-link">
               See the code <a href="https://github.com/Atelier-System-Design/project-atelier-products-backend">here.</a>
