@@ -90,7 +90,7 @@ function Projects() {
           <h3 className="project-header">Riff</h3>
           <div className="project-card-content">
             <div className="project-description">
-              <p>A mobile chat application made with React Native and Socket.io. Create servers and channels to chat in real time. Add friends for direct messaging.</p>
+              <p>A mobile chat application made with React Native and Socket.io. Create servers and channels to chat in real time with different communities. Add friends for direct messaging.</p>
             </div>
             <div className="project-preview-container">
               <div className="mobile-image-container">
