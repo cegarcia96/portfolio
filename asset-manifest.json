@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ab4cc809.css",
-    "main.js": "/static/js/main.eba09edd.js",
+    "main.js": "/static/js/main.b1a5900a.js",
     "static/media/profilePicture.jpeg": "/static/media/profilePicture.c01ff16e86bfba2234a1.jpeg",
     "static/media/tft-board-thumbnail-480.jpg": "/static/media/tft-board-thumbnail-480.442ff8e5184eba810000.jpg",
     "static/media/loader-thumbnail-480.jpg": "/static/media/loader-thumbnail-480.12d6f765a3494ed7f6e2.jpg",
@@ -12,10 +12,10 @@
     "static/media/github-icon.png": "/static/media/github-icon.ffa70286205754fefa7e.png",
     "index.html": "/index.html",
     "main.ab4cc809.css.map": "/static/css/main.ab4cc809.css.map",
-    "main.eba09edd.js.map": "/static/js/main.eba09edd.js.map"
+    "main.b1a5900a.js.map": "/static/js/main.b1a5900a.js.map"
   },
   "entrypoints": [
     "static/css/main.ab4cc809.css",
-    "static/js/main.eba09edd.js"
+    "static/js/main.b1a5900a.js"
   ]
 }
