@@ -19,7 +19,7 @@ function About() {
           <a href="https://github.com/cegarcia96">
             <img className="icon" src={require('../assets/icons/github-icon.png')} alt="github icon"/>
           </a>
-          <a href="https://drive.google.com/file/d/1CqEOCU_nuHKAVDi_v8g5Qo2cCINSXOwT/view?usp=sharing">
+          <a href="https://drive.google.com/file/d/1ml4lJDN3IhzOYOqz2HMEYk3AuL4NbDuN/view?usp=sharing">
             <img className="icon" src={require('../assets/icons/resume-icon.png')} alt="resume icon"/>
           </a>
         </div>
