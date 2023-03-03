@@ -1,13 +1,13 @@
+import { motion } from "framer-motion"
+
 function About() {
   return (
-    <div className="about-container">
-      <div className="profile-container">
-        <img className="profile-picture" src={require('../assets/profilePicture.jpeg')} alt="profile"/>
-      </div>
+    <motion.div className="about-container" whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
+    transition={{ duration: 0.5 }} viewport={{ once:true }}>
       <div className="about-description">
-      <h2 className="about-header"> Welcome! </h2>
+      <h2 className="about-header"> About Me </h2>
         <p>
-          I'm Chris Garcia, a software engineer. With a background in science I enjoy applying the logical thinking and analytical skills I developed to solve complex problems. I was drawn to software engineering because of the ever-changing nature of the industry and the opportunities for lifelong learning. Here you'll find descriptions of my projects and links to the codebase for each one.
+          I graduated with a B.S. in Chemistry from UCI, and previously worked in environmental compliance. With a background in science I enjoy applying the logical thinking and analytical skills I developed to solve complex problems. I was drawn to software engineering because of the ever-changing nature of the industry and the opportunities for lifelong learning. Here you'll find descriptions of my projects and links to the codebase for each one.
         </p>
         <p>
           Check out my <a href="https://www.linkedin.com/in/christopher-garcia96/">LinkedIn</a>, <a href="https://github.com/cegarcia96">GitHub</a>, and <a href="https://drive.google.com/file/d/1CqEOCU_nuHKAVDi_v8g5Qo2cCINSXOwT/view?usp=sharing">resume</a> at the links below.
@@ -24,7 +24,7 @@ function About() {
           </a>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }
 
