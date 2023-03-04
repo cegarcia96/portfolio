@@ -1,16 +1,17 @@
 import { useState } from 'react';
 
-function Welcome () {
+function Welcome ({ setDisplayNav }) {
   const [description, setDescription] = useState(false);
+  const [photo, setPhoto] = useState(false);
 
   return (
     <div className="welcome-container">
       <div className="welcome-content">
-        <div className="welcome-intro" onAnimationEnd={() => setDescription(true)}> Hi, I'm Chris</div>
+        <div className="welcome-intro" onAnimationEnd={() => setPhoto(true)}> Hi, I'm Chris</div>
         <div className="profile-container">
-          {description ? <img className="profile-picture" src={require('../assets/profilePicture.jpeg')} alt="profile"/> : <img className="profile-picture-hidden" src={require('../assets/profilePicture.jpeg')} alt="profile"/>}
+          {photo ? <img className="profile-picture" src={require('../assets/profilePicture.jpeg')} alt="profile" onAnimationEnd={() => {setDescription(true); setDisplayNav(true)}}/> : <img className="profile-picture-hidden" src={require('../assets/profilePicture.jpeg')} alt="profile"/>}
         </div>
-        {description ? <div className="welcome-description">A Software Engineer</div> : <div className="welcome-description-hidden">A Software Engineer</div>}
+        {description ? <div className="welcome-description">Welcome to my portfolio</div> : <div className="welcome-description-hidden">Welcome to my portfolio</div>}
       </div>
     </div>
   )

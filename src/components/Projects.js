@@ -1,10 +1,12 @@
-function Projects() {
+import { motion } from "framer-motion";
+function Projects({projectRef}) {
 
   return (
     <div className="projects-container">
       <div className="projects-row">
 
-        <div className="project-card">
+        <motion.div className="project-card" whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
+    transition={{ duration: 0.5 }} viewport={{ once:false }}>
           <h3 className="project-header">Atelier</h3>
           <div className="project-card-content">
             <div className="project-description">
@@ -20,9 +22,10 @@ function Projects() {
               See a preview of the entire page along with the code <a href="https://github.com/TeamJBox/rfp2210-fec">here.</a>
             </div>
           </div>
-        </div>
+        </motion.div>
 
-        <div className="project-card">
+        <motion.div className="project-card" whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
+    transition={{ duration: 0.5 }} viewport={{ once:false }}>
           <h3 className="project-header">Atelier API Extension</h3>
           <div className="project-card-content">
             <div className="project-description">
@@ -35,12 +38,13 @@ function Projects() {
               See the code <a href="https://github.com/Atelier-System-Design/project-atelier-products-backend">here.</a>
             </div>
           </div>
-        </div>
+        </motion.div>
       </div>
 
       <div className="projects-row">
 
-        <div className="project-card">
+        <motion.div className="project-card" whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
+    transition={{ duration: 0.5 }} viewport={{ once:false }}>
           <h3 className="project-header">TFT Board Builder</h3>
           <div className="project-card-content">
             <div className="project-description">
@@ -53,9 +57,10 @@ function Projects() {
               See the code <a href="https://github.com/cegarcia96/TFT-Board-Builder">here.</a>
             </div>
           </div>
-        </div>
+        </motion.div>
 
-        <div className="project-card">
+        <motion.div className="project-card" whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
+    transition={{ duration: 0.5 }} viewport={{ once:false }}>
           <h3 className="project-header">Riff</h3>
           <div className="project-card-content">
             <div className="project-description">
@@ -71,7 +76,7 @@ function Projects() {
               See the code <a href="https://github.com/BlueOceanDevelopment/RiffMessenger">here.</a>
             </div>
           </div>
-        </div>
+        </motion.div>
 
       </div>
     </div>

@@ -18,9 +18,36 @@ body {
   align-items: center;
   margin-left: 15%;
   margin-right: 15%;
-  margin-top: 1rem;
   margin-bottom: 1rem;
   background-color: #fafafa;
+}
+
+/* Nav */
+
+.nav-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  height: 5%;
+  animation-name: fadeIn;
+  animation-duration: 0.5s;
+}
+
+.nav-button {
+  display: flex;
+  width: 10%;
+  justify-content: center;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.nav-button:hover{
+  opacity: 1;
 }
 
 /* Welcome */
@@ -50,9 +77,9 @@ body {
 
 .welcome-intro {
   display: flex;
-  font-size: 4rem;
+  font-size: 3rem;
   animation-name: fadeIn;
-  animation-duration: 1.5s;
+  animation-duration: 1s;
 }
 
 .welcome-description-hidden {
@@ -188,6 +215,9 @@ a:hover {
     justify-content: center;
     align-items: center;
   }
+  .nav-container {
+    visibility: hidden;
+  }
 }
 
 @media screen and (min-width: 576px) {
@@ -226,13 +256,52 @@ a:hover {
   text-align: center;
 }
 
+.skills-icons-container {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+}
+
+.skills-row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .skill-icon {
   height: 100px;
   width: 100px;
-  cursor: pointer;
-  box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem #e8e7e4;
   background-color: white;
   color: white;
+}
+
+.skill-description {
+  margin-top: 0.25rem;
+  opacity: 0.5;
+}
+
+@media screen and (max-width: 768px) {
+  .skill-icon {
+    height: 75px;
+    width: 75px;
+  }
+  .skills-icons-container {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 300px) {
+  .skill-description {
+    visibility: hidden;
+  }
 }
 
 /* Projects */
