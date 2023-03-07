@@ -16,10 +16,12 @@ function App() {
   return (
     <div className="main-container">
       {displayNav ? <Nav aboutRef={aboutRef} skillRef={skillRef} projectRef={projectRef} /> : null}
-      <Welcome setDisplayNav={setDisplayNav} />
-      <About aboutRef={aboutRef}/>
-      <Skills skillRef={skillRef} projectRef={projectRef}/>
-      <Projects/>
+      <Welcome setDisplayNav={setDisplayNav} displayNav={displayNav} />
+      <div className="content-container">
+        <About aboutRef={aboutRef}/>
+        <Skills skillRef={skillRef} projectRef={projectRef}/>
+        <Projects/>
+      </div>
     </div>
   );
 }
