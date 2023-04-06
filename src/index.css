@@ -16,7 +16,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 1rem;
+  margin-bottom: 0;
   background-color: #f2f2f2;
 }
 
@@ -349,6 +349,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   width: 100%;
+  margin-bottom: 1rem;
 }
 
 .projects-row {
@@ -365,6 +366,12 @@ a:hover {
   background-color:#fff;
   border-radius: 10px;
   box-shadow: 0.1rem 0.1rem #e8e7e4;
+}
+
+#centered {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
 }
 
 .project-header {

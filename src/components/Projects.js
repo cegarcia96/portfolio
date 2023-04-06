@@ -6,7 +6,7 @@ function Projects({projectRef}) {
       <div className="projects-row">
 
         <motion.div className="project-card" whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
-    transition={{ duration: 0.5 }} viewport={{ once:false }}>
+          transition={{ duration: 0.5 }} viewport={{ once:false }}>
           <h3 className="project-header">Atelier</h3>
           <div className="project-card-content">
             <div className="project-description">
@@ -25,7 +25,7 @@ function Projects({projectRef}) {
         </motion.div>
 
         <motion.div className="project-card" whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
-    transition={{ duration: 0.5 }} viewport={{ once:false }}>
+          transition={{ duration: 0.5 }} viewport={{ once:false }}>
           <h3 className="project-header">Atelier API Extension</h3>
           <div className="project-card-content">
             <div className="project-description">
@@ -44,7 +44,7 @@ function Projects({projectRef}) {
       <div className="projects-row">
 
         <motion.div className="project-card" whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
-    transition={{ duration: 0.5 }} viewport={{ once:false }}>
+          transition={{ duration: 0.5 }} viewport={{ once:false }}>
           <h3 className="project-header">TFT Board Builder</h3>
           <div className="project-card-content">
             <div className="project-description">
@@ -60,7 +60,29 @@ function Projects({projectRef}) {
         </motion.div>
 
         <motion.div className="project-card" whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
-    transition={{ duration: 0.5 }} viewport={{ once:false }}>
+          transition={{ duration: 0.5 }} viewport={{ once:false }}>
+          <h3 className="project-header">Asteroids</h3>
+          <div className="project-card-content">
+            <div className="project-description">
+              <p>The classic game developed entirely in Java. Dodge and shoot asteroids and try to break your high score!</p>
+            </div>
+            <div className="project-preview-container">
+              <img className="project-thumbnail" src={require('../assets/asteroids/asteroids-480.jpg')} alt="asteroids project thumbnail" />
+            </div>
+            <div className="project-link">
+              See the code <a href="https://github.com/cegarcia96/asteroids">here.</a>
+            </div>
+          </div>
+
+        </motion.div>
+
+
+      </div>
+
+      <div className="projects-row" id="centered">
+
+      <motion.div className="project-card" whileInView={{ y: [100, 50, 0], opacity: [0, 0, 1] }}
+          transition={{ duration: 0.5 }} viewport={{ once:false }}>
           <h3 className="project-header">Riff</h3>
           <div className="project-card-content">
             <div className="project-description">
