@@ -10,9 +10,7 @@ function Projects({projectRef}) {
           <h3 className="project-header">Atelier</h3>
           <div className="project-card-content">
             <div className="project-description">
-              <p>A product overview page for an eCommerce site made by a team of 4 engineers using React and Styled Components. Includes overview, related items, questions and answers, and ratings and reviews sections. I primarily worked on the ratings and reviews section.
-              </p>
-              <p>Users are able to sort, filter, search, mark reviews as helpful, report them as inappropriate, and add a review for a product with client-side form validation.
+              <p>A product overview page for an eCommerce site made by a team of 4 engineers using React and Styled Components. Includes overview, related items, questions and answers, and ratings and reviews sections.
               </p>
             </div>
             <div className="project-preview-container">
@@ -48,7 +46,7 @@ function Projects({projectRef}) {
           <h3 className="project-header">TFT Board Builder</h3>
           <div className="project-card-content">
             <div className="project-description">
-              <p>A tool to theorycraft boards for the game Teamfight Tactics made with React and Tailwind CSS. Drap and drop champions from the pool onto the board and see the different traits activate. Log in, add some notes to each board and save to share it later.</p>
+              <p>A tool to theorycraft boards for the game Teamfight Tactics made with React and Tailwind CSS. Drag and drop champions from the pool onto the board and see the different traits activate. Log in, add some notes to each board and save to share it later.</p>
             </div>
             <div className="project-preview-container">
               <img className="project-thumbnail" src={require('../assets/tft/tft-board-thumbnail-480.jpg')} alt="tft project thumbnail" />
