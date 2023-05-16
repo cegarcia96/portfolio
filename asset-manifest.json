@@ -1,29 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.bda516e4.css",
-    "main.js": "/static/js/main.27b971d9.js",
+    "main.css": "/static/css/main.65fc6283.css",
+    "main.js": "/static/js/main.8d7081c8.js",
+    "static/media/riff-gif.png": "/static/media/riff-gif.83379275745e336515b5.png",
+    "static/media/tft-thumbnail.png": "/static/media/tft-thumbnail.e0ebfca120c2fddf0420.png",
     "static/media/react.png": "/static/media/react.81ed438b18e24116794d.png",
     "static/media/profilePicture.jpeg": "/static/media/profilePicture.c01ff16e86bfba2234a1.jpeg",
     "static/media/aws.png": "/static/media/aws.19a9a2115bd5087ab574.png",
-    "static/media/tft-board-thumbnail-480.jpg": "/static/media/tft-board-thumbnail-480.442ff8e5184eba810000.jpg",
+    "static/media/loader-thumbnail.png": "/static/media/loader-thumbnail.4f47d4abff143fd558ab.png",
+    "static/media/review-thumbnail.png": "/static/media/review-thumbnail.badc6ec16b6e71a551cf.png",
     "static/media/mongodb.png": "/static/media/mongodb.4f7af09e6354d51beec8.png",
-    "static/media/loader-thumbnail-480.jpg": "/static/media/loader-thumbnail-480.12d6f765a3494ed7f6e2.jpg",
-    "static/media/riff-chat-thumbnail-350.jpg": "/static/media/riff-chat-thumbnail-350.6328248cef883ba34088.jpg",
-    "static/media/reviews-thumbnail-480.jpg": "/static/media/reviews-thumbnail-480.d7b4d0a5cb02434b9ac7.jpg",
     "static/media/postgresql.png": "/static/media/postgresql.d4f58e4fc0b9a4bb9b10.png",
-    "static/media/asteroids-480.jpg": "/static/media/asteroids-480.60ab57bd0c750bad9aad.jpg",
-    "static/media/riff-channels-thumbnail-350.jpg": "/static/media/riff-channels-thumbnail-350.b8d4a7ba2cd0b0e18378.jpg",
+    "static/media/asteroids-thumbnail.png": "/static/media/asteroids-thumbnail.bb6aefc0fc2889f8d117.png",
     "static/media/resume-icon.png": "/static/media/resume-icon.4b8a236c4261ce393d0c.png",
     "static/media/express.png": "/static/media/express.d61ef3d53f792ced8df2.png",
     "static/media/node.png": "/static/media/node.8683d89cf78ffae3d1f7.png",
     "static/media/css.png": "/static/media/css.5721a3928fe43de6baf8.png",
     "static/media/github-icon.png": "/static/media/github-icon.ffa70286205754fefa7e.png",
     "index.html": "/index.html",
-    "main.bda516e4.css.map": "/static/css/main.bda516e4.css.map",
-    "main.27b971d9.js.map": "/static/js/main.27b971d9.js.map"
+    "main.65fc6283.css.map": "/static/css/main.65fc6283.css.map",
+    "main.8d7081c8.js.map": "/static/js/main.8d7081c8.js.map"
   },
   "entrypoints": [
-    "static/css/main.bda516e4.css",
-    "static/js/main.27b971d9.js"
+    "static/css/main.65fc6283.css",
+    "static/js/main.8d7081c8.js"
   ]
 }
